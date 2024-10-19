@@ -1,40 +1,40 @@
-  // Room
+    // Room
     implementation (libs.androidx.room.runtime)
     implementation (libs.androidx.room.ktx)
     //noinspection KaptUsageInsteadOfKsp ^^)
     kapt (libs.androidx.room.compiler)
 
-  // Retrofit
+    // Retrofit
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
 
-   // Koin
+    // Koin
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
 
-   // Icons
+    // Icons
     implementation(libs.androidx.material.icons.extended)
 
-  // Coil
+    // Coil
     implementation(libs.coil.compose)
 
-  // Navigation Compose
+    // Navigation Compose
     implementation (libs.androidx.navigation.compose)
 
-  // Compose Foundation
+    // Compose Foundation
     implementation (libs.androidx.foundation)
 
-  // Accompanist
+    // Accompanist
     implementation (libs.accompanist.systemuicontroller)
 
-  // Splash Screen
+    // Splash Screen
     implementation (libs.androidx.core.splashscreen)
 
-  // Compose Material
+    // Compose Material
     implementation (libs.androidx.material)
 
-  // Toasty
+    // Toasty
     implementation(libs.toasty)
 
-  // Logging Interceptor
+    // Logging Interceptor
     implementation (libs.logging.interceptor)
